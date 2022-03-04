@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add per-app userconfig ConfigMaps and Secrets so preinstalled apps can be configured.
+
+### Changed
+
+- Move app definitions to `values.yaml`.
+
 ## [0.1.1] - 2022-02-16
 
 ### Changed
