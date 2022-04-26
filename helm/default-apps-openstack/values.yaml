@@ -52,10 +52,20 @@ apps:
       secret: true
     forceUpgrade: true
     namespace: kube-system
-    version: 0.4.0
+    version: 0.5.0
   clusterResources:
     appName: cluster-resources
     chartName: cluster-resources
+    catalog: default
+    clusterValues:
+      configMap: false
+      secret: false
+    forceUpgrade: false
+    namespace: kube-system
+    version: 0.1.0
+  csiExternalSnapshotter:
+    appName: csi-external-snapshotter
+    chartName: csi-external-snapshotter-app
     catalog: default
     clusterValues:
       configMap: false
