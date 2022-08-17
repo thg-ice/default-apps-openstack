@@ -9,12 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.6.3] - 2022-08-17
 
+### Fixed
+
+- Bump `openstack-cloud-controller-manager` version to `0.6.2` to bring fixes.
+
 ## [0.6.2] - 2022-08-16
 
 ### Fixed
 
 - Update kube-state-metrics to 1.11.0 to fix team label for monitoring purposes.
-- Bump `openstack-cloud-controller-manager` version to `0.6.2` to bring fixes.
 
 ## [0.6.1] - 2022-06-27
 
