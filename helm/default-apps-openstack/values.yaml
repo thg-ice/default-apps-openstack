@@ -34,7 +34,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cert-exporter
-    version: 2.1.0
+    version: 2.2.0
   certManager:
     appName: cert-manager
     chartName: cert-manager-app
@@ -46,7 +46,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cert-manager-app
-    version: 2.15.2
+    version: 2.15.3
   cilium:
     appName: cilium
     chartName: cilium
@@ -58,7 +58,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/cilium-app
-    version: 0.1.0
+    version: 0.2.6
   cloudProviderOpenstack:
     appName: cloud-provider-openstack
     chartName: cloud-provider-openstack-app
@@ -118,7 +118,7 @@ apps:
     namespace: kube-system
     # used by renovate
     # repo: giantswarm/metrics-server-app
-    version: 1.6.0
+    version: 1.8.0
   netExporter:
     appName: net-exporter
     chartName: net-exporter
