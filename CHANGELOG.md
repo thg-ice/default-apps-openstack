@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Disabled force upgrade for `cert-manager`. It causes messed up installations because the initial install times out as there are usually no ready nodes in this case at that time. Forcing the upgrade possibly deletes an already running installation as Helm default timeout is 5 mins and `chart-operator` stops waiting for the status after 2 mins, leaving the install process running and marking the release as pending.
+
 ## [0.7.1] - 2022-09-20
 
 - Use `coredns.svc.kube-system` as monitoring target for `net-operator`
