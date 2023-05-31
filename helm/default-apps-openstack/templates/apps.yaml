@@ -44,7 +44,7 @@ spec:
   {{- end }}
   {{- if .secret }}
     secret:
-      name: {{ $.Values.clusterName }}-{{ $appName }}-user-values
+      name: {{ $.Values.clusterName }}-{{ $appName }}-user-secrets
       namespace: {{ $.Release.Namespace }}
   {{- end }}
   {{- end }}
